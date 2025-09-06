@@ -1,7 +1,7 @@
 import * as anchor from "@coral-xyz/anchor";
 import { Program } from "@coral-xyz/anchor";
 import { Degree } from "../target/types/degree";
-import { PublicKey } from "@solana/web3.js";
+import { PublicKey, Transaction } from "@solana/web3.js";
 import { expect } from "chai";
 
 describe("degree", () => {
@@ -16,8 +16,13 @@ describe("degree", () => {
   let diplomaRegistryBump: number;
 
   const testDiplomaId = "TEST-DIPLOMA-12345";
+  const testIpfsHash = "QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco"; 
   let diplomaPDA: PublicKey;
   let diplomaBump: number;
+
+  // For gas measurement, we will use a different diploma ID
+  const gasDiplomaId = "GAS-TEST-DIPLOMA-12345";
+  let gasDiplomaPDA: PublicKey;
 
   before(async () => {
     // Find the PDA for the diploma registry
@@ -65,7 +70,7 @@ describe("degree", () => {
   it("add a diploma", async () => {
     // Add a diploma to the registry
     const tx = await program.methods
-      .addDiploma(testDiplomaId)
+      .addDiploma(testDiplomaId, testIpfsHash)
       .accounts({
         diplomaRegistry: diplomaRegistryPDA,
         diploma: diplomaPDA,
