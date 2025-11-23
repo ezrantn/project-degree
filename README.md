@@ -12,11 +12,11 @@ This research presents a decentralized platform for academic credential verifica
 
 The paper has been accepted and is currently undergoing the publication process. It will be available on IEEE Xplore soon.
 
-- Status: Accepted — awaiting publication
+- Status: Accepted
 - Publisher: IEEE
-- DOI: To be added upon publication
+- DOI: https://doi.org/10.1109/ICITACEE66165.2025.11233026
 
-A link to the official publication will be provided here once it becomes available. You can find the presentation slides in the `materials` directory.
+You can find the presentation slides in the `materials` directory.
 
 ## How It's Built
 
