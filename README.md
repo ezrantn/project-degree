@@ -10,7 +10,7 @@ This research presents a decentralized platform for academic credential verifica
 
 ## Publication Status
 
-The paper has been accepted and is currently undergoing the publication process. It will be available on IEEE Xplore soon.
+The paper has been accepted and published on IEEE Xplore!
 
 - Status: Accepted
 - Publisher: IEEE
