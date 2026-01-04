@@ -2,7 +2,7 @@
 
 This repository contains the source code for a decentralized application (dApp) built on the Solana blockchain. It provides a secure and verifiable framework for issuing, managing, and verifying academic diplomas, leveraging the InterPlanetary File System (IPFS) for decentralized storage. This project serves as the practical implementation for the thesis titled, **"A Blockchain and InterPlanetary File System (IPFS) Based Smart Contract Framework for Preventing Certificate Fraud in Academia."**
 
-This work was formally presented at the 2025 International Conference on Information Technology, Computer, and Electrical Engineering (ICITACEE), hosted by Diponegoro University on August 28, 2025.
+This work was formally presented at the 2025 International Conference on Information Technology, Computer, and Electrical Engineering ([ICITACEE](https://icitacee.undip.ac.id)), hosted by Diponegoro University on August 28, 2025.
 
 ## Abstract
 
@@ -72,4 +72,21 @@ You can generate a new keypair to resolve this issue by running the following co
 
 ```bash
 solana-keygen new
+```
+
+## How To Cite
+
+BibTex
+
+```tex
+@INPROCEEDINGS{11233026,
+  author={Natanael, Ezra and Sanjaya, Ridwan and Nugroho, Erdhi Widyarto},
+  booktitle={2025 12th International Conference on Information Technology, Computer, and Electrical Engineering (ICITACEE)}, 
+  title={A Blockchain and InterPlanetary File System (IPFS) Based Smart Contract Framework for Preventing Certificate Fraud in Academia}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-6},
+  keywords={Prevention and mitigation;Smart contracts;Reliability engineering;Performance metrics;Blockchains;Fraud;InterPlanetary File System;Security;Testing;Qualifications;blockchain;decentralized verification;diploma fraud prevention;ipfs;smart contract},
+  doi={10.1109/ICITACEE66165.2025.11233026}}
 ```
